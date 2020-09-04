@@ -38,23 +38,26 @@
         }
     </style>
      
+</head>
+<body class="slides animated noPreload">
+<svg id="customSvgLibrary" xmlns="http://www.w3.org/2000/svg" style="display:none" id="customSvgLibrary">
+  
+ </svg>
+ 
 
-</svg><!-- Panel Top #10 -->
-<nav class="panel top firstSlideOnly">
-  <div class="sections">
-    <div class="left"><a href="#" title=""><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#logo"></use></svg></a></div>
-    <div class="right"></div>
+ </svg><!-- Navigation -->
+<nav class="side medium">
+  <div class="navigation default">
+    <ul></ul>
   </div>
-</nav>
+</nav>   
 <!-- Slide 2 (#07) -->
 <section class="slide fade-6 kenBurns">
-
   <div class="content">
-      <img src="assets/img/vishesh_logo.jpeg" alt="Vishesh logo" title="HousePriceDekho" style="width:150px;"/>
-      
-    <div class="container">
-        <div class="wrap">
-           
+    <img src="assets/img/vishesh_logo.jpeg" alt="Vishesh logo" title="HousePriceDekho" style="width:130px;"/>
+      <div class="container">
+      <div class="wrap">
+
         <div class="fix-11-12">
           <h1 class="cropBottom ae-1 fromCenter smaller">
               <big><b>House Price Prediction System</b></big>
@@ -63,11 +66,6 @@
 
               Machine Learning based House Price Prediction System Model with 95% Accuracy
           </h1>
-        </br>
-         </br>
-    </br>
-         </br></br>
-         </br>
         </div>
 
       </div>
@@ -75,26 +73,16 @@
   </div>
   <div class="background" style="background-image:url(assets/img/background/img-07.jpg)"></div>
 </section>
-
-<!-- Popup Video -->
-<div class="popup autoplay" data-popup-id="7">
-  <div class="close"><svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#close"></use></svg></div>
-  <div class="content">
-    <div class="container">
-      <div class="wrap">
-        <div class="fix-10-12">
-          <div class="embedVideo popupContent shadow rounded">
-            <iframe data-src="https://www.youtube.com/embed/g8yBqxTiHSs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-          </div>
-        </div>
-      </div>
+<!-- Panel Bottom #13 -->
+<nav class="panel bottom hideOnScroll">
+  <div class="sections">
+    <div class="center">
+      <ul class="menu crop">
+        <li><a href="https://www.facebook.com/xtylishvishesh" target="_blank"><svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#facebook"></use></svg></a></li>
+        <li><a href="https://twitter.com/Visheshjha12" target="_blank"><svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#twitter"></use></svg></a></li>
+        <li><a href="https://www.instagram.com/the__dragon__dude/" target="_blank"><svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#instagram"></use></svg></a></li>
+      </ul>
     </div>
-  </div>
-</div>
-</svg><!-- Navigation -->
-<nav class="side medium">
-  <div class="navigation default">
-    <ul></ul>
   </div>
 </nav>
 
@@ -109,13 +97,13 @@
             <svg height="77" class="wide ae-1 fromCenter">
           </div>
           
-                      </div>
+            </div>
           <p class="large ae-3"><span class="opacity-8"><big>Predict Now and Know Your <b>Dream House</b></big> Price</span></p>
           <form class="slides-form" action="#">
-            <input type="text" class="rounded input-9 ae-4 fromCenter" id="lotsize" placeholder="Enter Lotsize" val=""/>
-            <input type="text" class="rounded input-9 ae-4 fromCenter" id="Bathrms" placeholder="Enter Bathrms" val=""/>
-            <select id="Floor"> class="ae-4 fromCenter">
-            <option>Select number of Floors
+            <input type="text" class="rounded input-9 ae-4 fromCenter" id="lotsize" placeholder="Enter Lotsize" val =""/>
+            <input type="text" class="rounded input-9 ae-4 fromCenter" id="bathrms" placeholder="Enter Bathrooms" val =""/>
+            <select id="stories"> class="ae-4 fromCenter">
+            <option >Select number of Floors
             </option>
             <option value="1"> 1 Floor </option>
             <option value="2"> 2 Floors </option>
@@ -146,18 +134,19 @@
                 <option value="0">No</option>
               </select>
               <select id="airco">
-                <option>Does it have Airconditioning ?</option>
+                <option>Does it have Airconditioning?</option>
                 <option value="1">Yes</option>
                 <option value="0">No</option>
               </select>
-              <input type="text" class="rounded input-9 ae-4 fromCenter" id="garagepl" placeholder="Enter Garage Places"/>
+              <input type="text" class="rounded input-9 ae-4 fromCenter" id="garagepl" placeholder="Enter Garage Places" val =""/>
+              
               <select id="prefarea">
                 <option>Is it in Preferred area of City?</option>
                 <option value="1">Yes</option>
                 <option value="0">No</option>
               </select>
                
-            <button type="button" class="button blue gradient ae-7 fromCenter" name="button" id="predict_btn">Predict
+            <button type="button" class="button blue rounded button-9 ae-7 fromCenter" name="button" id="predict_btn">Predict
             House Price</button>
             <h2 id="result"></h2>
           </form>
@@ -169,21 +158,6 @@
   <div class="background" style="background-image:url(assets/img/background/house.jpg)"></div>
 </section>
 
-<!-- Popup Video -->
-<div class="popup autoplay" data-popup-id="9">
-  <div class="close"><svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#close"></use></svg></div>
-  <div class="content">
-    <div class="container">
-      <div class="wrap">
-        <div class="fix-10-12">
-          <div class="embedVideo popupContent shadow rounded">
-            
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
 
 <!-- Panel Bottom #13 -->
 <nav class="panel bottom hideOnScroll">
@@ -192,7 +166,7 @@
       <ul class="menu crop">
         <li><a href="https://www.facebook.com/xtylishvishesh" target="_blank"><svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#facebook"></use></svg></a></li>
         <li><a href="https://twitter.com/Visheshjha12" target="_blank"><svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#twitter"></use></svg></a></li>
-        <li><a href="" target="_blank"><svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#instagram"></use></svg></a></li>
+        <li><a href="https://www.instagram.com/the__dragon__dude/" target="_blank"><svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#instagram"></use></svg></a></li>
       </ul>
     </div>
   </div>
@@ -221,12 +195,53 @@
           var garagepl =$("#garagepl").val();
           var prefarea =$("#prefarea option:selected").val();
           $.get("predict.php",{"lotsize":lotsize,"bathrms":bathrms,"stories":stories,"driveway":driveway,"recroom":recroom,"fullbase":fullbase,"gashw":gashw,"airco":airco,"garagepl":garagepl,"prefarea":prefarea}, function(response){
-              $("result").html(response)
+              
+              $("#result").html(response)
           });
+            
         });
     
         
     });
     
 </script>
+<script type="text/javascript">
+    window._mfq = window._mfq || [];
+    (function() {
+        var mf = document.createElement("script");
+        mf.type = "text/javascript"; mf.defer = true;
+        mf.src = "//cdn.mouseflow.com/projects/b5781532-b85f-493d-a012-d1b702f2d52f.js";
+        document.getElementsByTagName("head")[0].appendChild(mf);
+    })();
+</script>
+
+<!--Start of Tawk.to Script-->
+<script type="text/javascript">
+var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+(function(){
+var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+s1.async=true;
+s1.src='https://embed.tawk.to/5ee258114a7c6258179a6887/default';
+s1.charset='UTF-8';
+s1.setAttribute('crossorigin','*');
+s0.parentNode.insertBefore(s1,s0);
+})();
+</script>
+<!--End of Tawk.to Script-->
+
+<!-- GetButton.io widget -->
+<script type="text/javascript">
+    (function () {
+        var options = {
+            whatsapp: "+917004045392", // WhatsApp number
+            call_to_action: "Message us", // Call to action
+            position: "left", // Position may be 'right' or 'left'
+        };
+        var proto = document.location.protocol, host = "getbutton.io", url = proto + "//static." + host;
+        var s = document.createElement('script'); s.type = 'text/javascript'; s.async = true; s.src = url + '/widget-send-button/js/init.js';
+        s.onload = function () { WhWidgetSendButton.init(host, proto, options); };
+        var x = document.getElementsByTagName('script')[0]; x.parentNode.insertBefore(s, x);
+    })();
+</script>
+<!-- /GetButton.io widget -->
 </html>
