@@ -2,6 +2,17 @@
 //GET Parameters
 
 
+$lotsize = 0;
+$bathrms = 0;
+$stories = 0;
+$driveway = 0;
+$recroom = 0;
+$fullbase = 0;
+$gashw = 0;
+$airco =0;
+$garagepl = 0;
+$prefarea =0; 
+
 $lotsize = $_GET["lotsize"];
 $bathrms = $_GET["bathrms"];
 $stories = $_GET["stories"];
