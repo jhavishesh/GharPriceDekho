@@ -20,4 +20,3 @@ system("/usr/anaconda/bin/python3 home.py ".$lotsize." ".$bathrms." ".$stories."
 
 
 ?>
-
