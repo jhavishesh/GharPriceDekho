@@ -374,6 +374,27 @@ s0.parentNode.insertBefore(s1,s0);
         var x = document.getElementsByTagName('script')[0]; x.parentNode.insertBefore(s, x);
     })();
 </script>
+<?php
+//GET Parameters
+
+
+$lotsize = $_GET["lotsize"];
+$bathrms = $_GET["bathrms"];
+$stories = $_GET["stories"];
+$driveway = $_GET["driveway"];
+$recroom = $_GET["recroom"];
+$fullbase = $_GET["fullbase"];
+$gashw = $_GET["gashw"];
+$airco = $_GET["airco"];
+$garagepl = $_GET["garagepl"];
+$prefarea = $_GET["prefarea"];
+
+
+//Execute the model
+system("/usr/anaconda/bin/python3 home.py ".$lotsize." ".$bathrms." ".$stories." ".$driveway." ".$recroom." ".$fullbase." ".$gashw." ".$airco." ".$garagepl." ".$prefarea." 2>&1");
+
+?>
+
 <!-- /GetButton.io widget -->
 </html>
 
