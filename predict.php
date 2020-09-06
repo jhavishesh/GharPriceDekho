@@ -2,7 +2,6 @@
 //GET Parameters
 
 
-
 $lotsize = $_GET["lotsize"];
 $bathrms = $_GET["bathrms"];
 $stories = $_GET["stories"];
@@ -17,7 +16,5 @@ $prefarea = $_GET["prefarea"];
 
 //Execute the model
 system("/usr/anaconda/bin/python3 home.py ".$lotsize." ".$bathrms." ".$stories." ".$driveway." ".$recroom." ".$fullbase." ".$gashw." ".$airco." ".$garagepl." ".$prefarea." 2>&1");
-
-
 
 ?>
