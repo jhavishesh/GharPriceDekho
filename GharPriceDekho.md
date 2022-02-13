@@ -72,8 +72,6 @@ Step 5: Finally, deploy all the modules and make your project live.
 
 
 
-## Note: All the modules and its codes are uploaded here but when you are trying to get the price of the house it won't be appear because github doesn't support backend request.
-
 
 
 
