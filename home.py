@@ -31,6 +31,7 @@ model=OLS(Y,X).fit()
 #Remove Multicollinearity using Varience Inflation Factor
 
 #check the model summary
+
 model.summary()
 
 #calculate the varience inflation factor
