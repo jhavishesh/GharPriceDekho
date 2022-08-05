@@ -16,6 +16,7 @@ $prefarea = $_GET["prefarea"];
 
 //this is way to pass argument in php through which model will get execute.
 
+
 //http://here is instance ip address which is now(18.222.253.208)/predict.php?lotsize=2000&driveway=1&recroom=1&fullbase=1&gashw=1&airco=1&garagepl=1&prefarea=1
 
 
