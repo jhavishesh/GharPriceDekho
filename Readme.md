@@ -5,6 +5,7 @@ When someone wants to buy his/her own house it is very difficult for that person
 This is reason behind to develop this project to solve this problem and make people life easy that anyone can able to knows the price of house with 95% accuracy according to their requirements.
 
 
+
 ## Problems faced during buying a house:
 
 • Buying a house is a stressful thing.\
